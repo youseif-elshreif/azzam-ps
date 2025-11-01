@@ -25,7 +25,7 @@ const Hero = () => {
               <span className="text-accent"> Excellence</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-muted mb-8 max-w-2xl">
+            <p className="text-lg md:text-xl text-white mb-8 max-w-2xl">
               Advance your medical career with expert-led courses designed by
               practicing physicians. Learn cutting-edge techniques, clinical
               best practices, and evidence-based medicine.

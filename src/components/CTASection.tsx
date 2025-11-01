@@ -96,24 +96,19 @@ const CTASection = () => {
               variant="primary"
               size="lg"
               href="/courses"
-              className="bg-white text-secondary hover:bg-accent hover:text-primary shadow-lg group min-w-[200px]"
+              className="group"
             >
               <span>Start Learning Today</span>
               <HiArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
 
-            <Button
-              variant="ghost"
-              size="lg"
-              href="/contact"
-              className="text-white border-white hover:bg-white hover:text-secondary min-w-[200px]"
-            >
+            <Button variant="secondary" size="lg" href="/contact">
               Speak with an Advisor
             </Button>
           </div>
 
           {/* Trust Indicators */}
-          <div className="mt-12 pt-8 border-t border-white border-opacity-20">
+          {/* <div className="mt-12 pt-8 border-t border-white border-opacity-20">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white">
               <div className="text-center">
                 <div className="text-2xl font-bold mb-1">15+</div>
@@ -128,10 +123,10 @@ const CTASection = () => {
                 <div className="text-sm opacity-90">Learning Support</div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Special Offer */}
-          <div className="mt-8">
+          {/* <div className="mt-8">
             <div className="inline-flex items-center px-4 py-2 bg-white bg-opacity-20 rounded-full text-secondary text-sm">
               <FaBullseye className="mr-2 w-4 h-4 text-cta" />
               <span>
@@ -139,7 +134,7 @@ const CTASection = () => {
                 students
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </Container>
     </section>
