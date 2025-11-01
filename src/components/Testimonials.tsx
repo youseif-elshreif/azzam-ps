@@ -103,7 +103,7 @@ const Testimonials = () => {
               {/* Author Info */}
               <div className="flex items-center space-x-3">
                 {/* Avatar */}
-                <div className="w-12 h-12 bg-gradient-to-br from-primary to-cta rounded-full flex items-center justify-center shrink-0">
+                <div className="w-12 h-12 bg-linear-to-br from-primary to-cta rounded-full flex items-center justify-center shrink-0">
                   <span className="text-white font-semibold text-sm">
                     {getInitials(testimonial.name)}
                   </span>

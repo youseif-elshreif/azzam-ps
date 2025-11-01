@@ -33,7 +33,9 @@ const IconWrapper = ({
   };
 
   return (
-    <div className={`${sizeClasses[size]} ${colorClasses[color]} ${className}`}>
+    <div
+      className={`${sizeClasses[size]} ${colorClasses[color]} ${className} flex items-center justify-center text-[25px]`}
+    >
       {children}
     </div>
   );

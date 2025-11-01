@@ -18,10 +18,10 @@ interface AboutDoctorProps {
 }
 
 const AboutDoctor = ({
-  name = "Dr. Sarah Mitchell",
+  name = "Dr. Azzam",
   title = "Chief Medical Officer & Lead Instructor",
-  bio = "With over 15 years of clinical experience and a passion for medical education, Dr. Mitchell has dedicated her career to advancing healthcare through innovative teaching methods. She specializes in emergency medicine and has published numerous research papers in peer-reviewed journals.",
-  imageSrc = "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=500&fit=crop&crop=face", // Professional doctor image
+  bio = "With over 15 years of clinical experience and a passion for medical education, Dr. Azzam has dedicated his career to advancing healthcare through innovative teaching methods. He specializes in emergency medicine and has published numerous research papers in peer-reviewed journals.",
+  imageSrc = "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=500&fit=crop&crop=face", // Professional male doctor image
   badges = [
     "MD - Harvard Medical School",
     "Board Certified Emergency Medicine",
@@ -81,7 +81,7 @@ const AboutDoctor = ({
               <div className="space-y-2">
                 {badges.map((badge, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <HiCheckCircle className="w-5 h-5 text-cta flex-shrink-0" />
+                    <HiCheckCircle className="w-5 h-5 text-cta shrink-0" />
                     <span className="text-text">{badge}</span>
                   </div>
                 ))}
@@ -111,7 +111,7 @@ const AboutDoctor = ({
                 professionals to provide exceptional patient care.&quot;
               </p>
               <p className="text-right text-muted mt-2 font-medium">
-                — Dr. Sarah Mitchell
+                — Dr. Azzam
               </p>
             </div>
           </div>

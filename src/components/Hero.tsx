@@ -81,7 +81,7 @@ const Hero = () => {
                     <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
                       <div className="w-6 h-6 bg-primary rounded-full"></div>
                     </div>
-                    <div className="w-12 h-12 bg-gradient-to-br from-primary to-cta rounded-lg"></div>
+                    <div className="w-12 h-12 bg-linear-to-brfrom-primary to-cta rounded-lg"></div>
                     <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
                       <div className="w-4 h-6 bg-white rounded-sm"></div>
                     </div>
@@ -96,7 +96,7 @@ const Hero = () => {
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
                         <div
-                          className="bg-gradient-to-r from-primary to-cta h-2 rounded-full"
+                          className="bg-linear-to-r from-primary to-cta h-2 rounded-full"
                           style={{ width: "92%" }}
                         ></div>
                       </div>
@@ -109,7 +109,7 @@ const Hero = () => {
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
                         <div
-                          className="bg-gradient-to-r from-primary to-cta h-2 rounded-full"
+                          className="bg-linear-to-r from-primary to-cta h-2 rounded-full"
                           style={{ width: "88%" }}
                         ></div>
                       </div>
@@ -122,7 +122,7 @@ const Hero = () => {
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
                         <div
-                          className="bg-gradient-to-r from-primary to-cta h-2 rounded-full"
+                          className="bg-linear-to-r from-primary to-cta h-2 rounded-full"
                           style={{ width: "95%" }}
                         ></div>
                       </div>

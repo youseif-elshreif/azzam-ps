@@ -6,29 +6,25 @@
 import Container from "./ui/Container";
 import Card from "./ui/Card";
 import IconWrapper from "./ui/IconWrapper";
-import {
-  HiAcademicCap,
-  HiClipboardCheck,
-  HiBadgeCheck,
-  HiUsers,
-} from "react-icons/hi";
+import { HiUsers } from "react-icons/hi";
+import { FaStethoscope, FaCertificate, FaUserMd } from "react-icons/fa";
 
 const WhyLearnHere = () => {
   const benefits = [
     {
-      icon: HiAcademicCap,
+      icon: FaUserMd,
       title: "Expert-Led Curriculum",
       description:
         "Learn from practicing physicians with real-world clinical experience and cutting-edge medical knowledge.",
     },
     {
-      icon: HiClipboardCheck,
+      icon: FaStethoscope,
       title: "Practical Clinical Cases",
       description:
         "Work through real patient scenarios and case studies to develop critical thinking and diagnostic skills.",
     },
     {
-      icon: HiBadgeCheck,
+      icon: FaCertificate,
       title: "Accredited Certification",
       description:
         "Earn recognized certificates that enhance your professional credentials and career advancement opportunities.",

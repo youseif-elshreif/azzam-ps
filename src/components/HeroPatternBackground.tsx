@@ -7,7 +7,7 @@ const HeroPatternBackground = () => {
   return (
     <div className="absolute inset-0 overflow-hidden">
       {/* Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-cta to-white opacity-90" />
+      <div className="absolute inset-0 bg-linear-to-br from-primary via-cta to-white opacity-90" />
 
       {/* Medical Pattern SVG */}
       <svg

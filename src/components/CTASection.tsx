@@ -9,7 +9,7 @@ import { HiAcademicCap, HiArrowRight } from "react-icons/hi";
 
 const CTASection = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-secondary via-primary to-cta relative overflow-hidden">
+    <section className="py-20 bg-linear-to-r from-secondary via-primary to-cta relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <svg

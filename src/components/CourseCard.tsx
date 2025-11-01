@@ -63,7 +63,7 @@ const CourseCard = ({
             className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-200"
           />
         ) : (
-          <div className="w-full h-48 bg-gradient-to-br from-accent to-primary flex items-center justify-center">
+          <div className="w-full h-48 bg-linear-to-br from-accent to-primary flex items-center justify-center">
             <div className="text-center text-white">
               <HiAcademicCap className="w-12 h-12 mx-auto mb-2" />
               <p className="text-sm font-medium">
