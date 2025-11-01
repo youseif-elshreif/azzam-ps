@@ -36,7 +36,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="col-span-1 lg:col-span-2">
               <Link href="/" className="flex items-center space-x-2 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-r from-primary to-cta rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 bg-linear-to-r from-primary to-cta rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xl">M</span>
                 </div>
                 <span className="text-xl font-bold">MedCourses</span>
@@ -64,7 +64,9 @@ const Footer = () => {
 
             {/* Quick Links */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+              <h3 className="font-semibold text-lg mb-4 text-primary!">
+                Quick Links
+              </h3>
               <ul className="space-y-2">
                 {quickLinks.map((link) => (
                   <li key={link.name}>
@@ -81,7 +83,9 @@ const Footer = () => {
 
             {/* Contact Info */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Contact</h3>
+              <h3 className="font-semibold text-lg mb-4 text-primary!">
+                Contact
+              </h3>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <IconWrapper size="sm" color="accent">

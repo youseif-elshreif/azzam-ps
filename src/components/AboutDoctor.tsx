@@ -96,7 +96,7 @@ const AboutDoctor = ({
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {specialties.map((specialty, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-primary rounded-full shrink-0"></div>
                     <span className="text-text">{specialty}</span>
                   </div>
                 ))}

@@ -47,7 +47,7 @@ const CTASection = () => {
           {/* Icon */}
           <div className="mb-8">
             <div className="inline-flex items-center justify-center w-20 h-20 bg-white bg-opacity-20 rounded-full mb-6">
-              <HiAcademicCap className="w-10 h-10 text-white" />
+              <HiAcademicCap className="w-10 h-10 text-primary" />
             </div>
           </div>
 
@@ -131,7 +131,7 @@ const CTASection = () => {
 
           {/* Special Offer */}
           <div className="mt-8">
-            <div className="inline-flex items-center px-4 py-2 bg-white bg-opacity-20 rounded-full text-white text-sm">
+            <div className="inline-flex items-center px-4 py-2 bg-white bg-opacity-20 rounded-full text-secondary text-sm">
               <span className="mr-2">🎯</span>
               <span>
                 <strong>Limited Time:</strong> 30% off all courses for new

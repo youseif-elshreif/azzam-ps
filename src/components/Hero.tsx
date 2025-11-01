@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary mb-6 leading-tight">
               Master Medical
-              <span className="text-primary"> Excellence</span>
+              <span className="text-accent"> Excellence</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted mb-8 max-w-2xl">
