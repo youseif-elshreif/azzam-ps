@@ -4,6 +4,7 @@
  */
 
 import Link from "next/link";
+import Image from "next/image";
 import { HiStar, HiClock, HiAcademicCap } from "react-icons/hi";
 
 export interface CourseCardProps {
@@ -54,9 +55,11 @@ const CourseCard = ({
       {/* Course Image */}
       <div className="relative overflow-hidden">
         {imageSrc ? (
-          <img
+          <Image
             src={imageSrc}
             alt={title}
+            width={400}
+            height={192}
             className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-200"
           />
         ) : (

@@ -3,6 +3,7 @@
  * Features responsive two-column layout with specialties and credentials
  */
 
+import Image from "next/image";
 import Container from "./ui/Container";
 import Card from "./ui/Card";
 import { HiCheckCircle } from "react-icons/hi";
@@ -20,7 +21,7 @@ const AboutDoctor = ({
   name = "Dr. Sarah Mitchell",
   title = "Chief Medical Officer & Lead Instructor",
   bio = "With over 15 years of clinical experience and a passion for medical education, Dr. Mitchell has dedicated her career to advancing healthcare through innovative teaching methods. She specializes in emergency medicine and has published numerous research papers in peer-reviewed journals.",
-  imageSrc = "/api/placeholder/300/400", // Placeholder for now
+  imageSrc = "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=500&fit=crop&crop=face", // Professional doctor image
   badges = [
     "MD - Harvard Medical School",
     "Board Certified Emergency Medicine",
@@ -41,20 +42,14 @@ const AboutDoctor = ({
           <div className="flex justify-center">
             <Card className="overflow-hidden max-w-sm" hover={false}>
               <div className="relative">
-                {/* Placeholder Image */}
-                <div className="w-full h-80 bg-gradient-to-br from-accent to-gray-100 flex items-center justify-center">
-                  <div className="text-center text-muted">
-                    <div className="w-24 h-24 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white text-2xl font-bold">
-                        {name
-                          .split(" ")
-                          .map((n) => n[0])
-                          .join("")}
-                      </span>
-                    </div>
-                    <div className="text-sm">Doctor Photo</div>
-                  </div>
-                </div>
+                {/* Doctor Image */}
+                <Image
+                  src={imageSrc}
+                  alt={`Dr. ${name} - Medical Instructor`}
+                  width={400}
+                  height={320}
+                  className="w-full h-80 object-cover"
+                />
 
                 {/* Badge Overlay */}
                 <div className="absolute top-4 right-4 bg-cta text-white px-3 py-1 rounded-full text-sm font-medium">

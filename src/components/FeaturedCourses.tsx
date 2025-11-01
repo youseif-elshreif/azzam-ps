@@ -9,43 +9,52 @@ import CourseCard, { CourseCardProps } from "./CourseCard";
 import { HiArrowRight } from "react-icons/hi";
 
 const FeaturedCourses = () => {
-  // Mock course data - in real app, this would come from API/CMS
+  // Mock course data with Unsplash medical images
   const featuredCourses: CourseCardProps[] = [
     {
       id: "emergency-medicine-basics",
       title: "Emergency Medicine Fundamentals",
       shortDescription:
         "Master the essential skills and protocols for emergency medical situations. Learn triage, resuscitation techniques, and critical care management.",
+      imageSrc:
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop&crop=center",
       price: 299,
       duration: "12 weeks",
       level: "Intermediate",
       rating: 5,
       href: "/courses/emergency-medicine-basics",
       studentsCount: 1200,
+      reviewsCount: 180,
     },
     {
       id: "clinical-diagnostics",
       title: "Advanced Clinical Diagnostics",
       shortDescription:
         "Develop expertise in diagnostic reasoning, medical imaging interpretation, and laboratory analysis for accurate patient assessment.",
+      imageSrc:
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop&crop=center",
       price: 399,
       duration: "16 weeks",
       level: "Advanced",
       rating: 5,
       href: "/courses/clinical-diagnostics",
       studentsCount: 850,
+      reviewsCount: 125,
     },
     {
       id: "patient-communication",
       title: "Patient Communication & Ethics",
       shortDescription:
         "Learn effective communication strategies, ethical decision-making, and cultural competency in healthcare delivery.",
+      imageSrc:
+        "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&h=400&fit=crop&crop=center",
       price: 199,
       duration: "8 weeks",
       level: "Beginner",
       rating: 4,
       href: "/courses/patient-communication",
       studentsCount: 2100,
+      reviewsCount: 240,
     },
   ];
 
