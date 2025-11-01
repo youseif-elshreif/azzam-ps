@@ -34,7 +34,7 @@ const Button = ({
 
   const variantClasses = {
     primary:
-      "bg-gradient-to-r from-primary to-secondary text-white hover:shadow-soft hover:scale-105 active:scale-95",
+      "bg-linear-to-r from-primary to-secondary text-white hover:shadow-soft hover:scale-105 active:scale-95",
     secondary:
       "border-2 border-secondary text-secondary bg-white hover:bg-secondary hover:text-white",
     ghost: "text-secondary hover:bg-accent hover:text-primary",

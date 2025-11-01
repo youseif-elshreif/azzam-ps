@@ -7,6 +7,7 @@ import Button from "./ui/Button";
 import Container from "./ui/Container";
 import HeroPatternBackground from "./HeroPatternBackground";
 import { HiPlay, HiAcademicCap } from "react-icons/hi";
+import { FaTrophy } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -81,7 +82,7 @@ const Hero = () => {
                     <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
                       <div className="w-6 h-6 bg-primary rounded-full"></div>
                     </div>
-                    <div className="w-12 h-12 bg-linear-to-brfrom-primary to-cta rounded-lg"></div>
+                    <div className="w-12 h-12 bg-linear-to-br from-primary to-cta rounded-lg"></div>
                     <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
                       <div className="w-4 h-6 bg-white rounded-sm"></div>
                     </div>
@@ -132,7 +133,8 @@ const Hero = () => {
                   {/* Bottom Badge */}
                   <div className="text-center">
                     <div className="inline-flex items-center px-3 py-1 bg-accent text-primary text-sm font-medium rounded-full">
-                      🏆 Top Rated Course
+                      <FaTrophy className="mr-2 w-4 h-4" />
+                      Top Rated Course
                     </div>
                   </div>
                 </div>

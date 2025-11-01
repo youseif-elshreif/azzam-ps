@@ -6,6 +6,7 @@
 import Container from "./ui/Container";
 import Button from "./ui/Button";
 import { HiAcademicCap, HiArrowRight } from "react-icons/hi";
+import { FaBullseye } from "react-icons/fa";
 
 const CTASection = () => {
   return (
@@ -132,7 +133,7 @@ const CTASection = () => {
           {/* Special Offer */}
           <div className="mt-8">
             <div className="inline-flex items-center px-4 py-2 bg-white bg-opacity-20 rounded-full text-secondary text-sm">
-              <span className="mr-2">🎯</span>
+              <FaBullseye className="mr-2 w-4 h-4 text-cta" />
               <span>
                 <strong>Limited Time:</strong> 30% off all courses for new
                 students
